@@ -1,0 +1,28 @@
+.commentCard {
+    background-color: var(--background-color);
+    padding: var(--padding-10);
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--border-radius);
+}
+
+.avatarImage {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.commentContent{
+    display: flex;
+    align-items: center;
+    gap: var(--flex-gap-10);
+}
+
+.commentTitle{
+    display: flex;
+    flex-direction: column;
+}
+.commentTitle p{
+    font-family: cursive;
+    font-size: var(--font-size-14);
+    color: var(--text-color);
+}
