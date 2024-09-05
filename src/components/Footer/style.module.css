@@ -1,0 +1,24 @@
+.Footer {
+    margin-top: var(--margin-20);
+    background: var(--primary-color);
+    width: var(--width-100);
+    display: flex;
+    padding: var(--padding-20);
+    justify-content: center;
+    color: var(--secondary-text-color);
+}
+
+.FooterContent {
+    min-width: var(--width-80);
+    display: flex;
+    justify-content: end;
+    gap: var(--flex-gap-50);
+
+    @media screen and (max-width: 720px) {
+        justify-content: center;
+    }
+}
+
+.FooterContent a {
+    text-decoration: underline;
+}
