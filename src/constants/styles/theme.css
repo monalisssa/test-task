@@ -1,0 +1,63 @@
+:root{
+
+    --primary-color: #337ab7;
+    --seconary-color:  rgb(51, 122, 183, .5);
+    --border-color: #ccc;
+    --secondary-text-color: #fff;
+    --button-color: #000;
+    --background-color: rgba(23, 23, 23, 0.1);
+    --error-color: #ff4040;
+    --toast-color: #ec5353;
+
+    --text-color: #555;
+    --flex-gap-20: 20px;
+    --flex-gap-50: 50px;
+    --flex-gap-80: 80px;
+    --flex-gap-5: 5px;
+    --flex-gap-30: 30px;
+    --flex-gap-10: 10px;
+    --flex-gap-15: 15px;
+    --flex-gap-40: 40px;
+
+
+    --font-size-15: 15px;
+    --font-size-30: 30px;
+    --font-size-20: 18px;
+    --font-size-14: 14px;
+
+    --width-80: 80%;
+    --width-100: 100%;
+    --width-40: 40%;
+    --width-30: 30%;
+    --width-90: 90%;
+    --width-60: 60%;
+
+    --margin-30: 30px;
+    --margin-20: 20px;
+
+    --padding-10: 10px;
+    --padding-20: 20px;
+    --padding-30: 30px;
+    --padding-15: 15px;
+
+    --padding-button: 15px 20px;
+    --form-width: 350px;
+    --form-height: 300px;
+
+    --form-height-adaptive: 400px;
+
+    --border-radius: 10px;
+    --card-border-radius: 15px;
+
+    --font-family: cursive;
+
+    --loader-size: 50px;
+    --loader-radius: 50%;
+
+    --card-width: 250px;
+    --card-height: 350px;
+
+    --card-width-adaptive: 300px;
+    --card-height-adaptive: 400px;
+
+}
