@@ -18,7 +18,7 @@ docker build -t test-task:latest .
 ```
 
 ### 3. Запуск контейнера
-   Запустите контейнер с вашим приложением:
+   Запустите контейнер с приложением:
 
 ```bash
 docker run -d -p 3000:3000 test-task:latest
