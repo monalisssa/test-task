@@ -1,0 +1,30 @@
+button {
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    border: none;
+    cursor: pointer;
+}
+
+.paginationButtonActive {
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+}
+
+.pagesBox {
+    margin-top: var(--margin-20);
+    display: flex;
+    align-items: center;
+    gap: var(--flex-gap-10);
+    align-self: end;
+
+    @media screen and (max-width: 1024px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: var(--width-100);
+    }
+}
+
+.paginationArrow {
+    background-color: initial;
+    font-size: var(--font-size-30);
+}
