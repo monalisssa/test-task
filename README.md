@@ -8,7 +8,7 @@
 
 ```bash
 git clone https://github.com/monalisssa/test-task.git
-cd ваш_репозиторий
+cd test-task
 ```
 
 ### 1. Сборка образа Docker
